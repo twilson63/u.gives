@@ -5,6 +5,9 @@
     "graphql_tools": "https://deno.land/x/graphql_tools@0.0.2/mod.ts",
     "graphql_tag": "https://deno.land/x/graphql_tag@0.0.1/mod.ts",
     "hyper-connect": "https://x.nest.land/hyper-connect@0.1.10/deno/mod.ts",
-    "dotenv": "https://deno.land/x/dotenv@v3.1.0/load.ts"
+    "dotenv": "https://deno.land/x/dotenv@v3.1.0/load.ts",
+    "zod": "https://deno.land/x/zod/mod.ts",
+    "crocks": "https://cdn.skypack.dev/crocks@0.12.4",
+    "ramda": "https://cdn.skypack.dev/ramda@v0.28.0"
   }
 }

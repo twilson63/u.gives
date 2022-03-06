@@ -13,7 +13,7 @@ serve(req => {
   }
   const { pathname} = new URL(req.url)
   console.log(`${req.method} ${pathname}`)
-  return routes[pathname](req)
+  return routes[pathname] ? routes[pathname](req) : new Response('Not Found', {status: 404})
 })
 
 /**
